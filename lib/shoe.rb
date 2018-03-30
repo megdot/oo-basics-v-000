@@ -8,7 +8,7 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    :conidition == "new"
+    shoe.condition = "new"
   end
 
 end
